@@ -28,6 +28,16 @@ url: "https://get-prog.github.io" # the base hostname & protocol for your site, 
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-mentions
+  - jekyll-avatar
+  - jemoji
+
+jekyll-mentions: https://github.com
+github_username: GET-Prog
+show_excerpts: true
+disqus:
+  shortname: getpro-1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
