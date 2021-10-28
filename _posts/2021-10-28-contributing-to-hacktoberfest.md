@@ -6,7 +6,7 @@ author: Vinícius Romano
 github: romavini
 ---
 
-**It's October!** And in addition to Librans and autumn worshipers, programmers can also celebrate the arrival of this month, as the **Hacktoberfest** takes place in October. An event aimed at developers, programmers and palpitators to contribute open projects on git platforms (such as [GitHub](https://github.com/)) to win their event t-shirts.
+**It's October!** And in addition to Librans and autumn (or spring) worshipers, programmers can also celebrate the arrival of this month, as the [**Hacktoberfest**](https://hacktoberfest.digitalocean.com/) takes place in October. An event aimed at developers, programmers and palpitators to contribute open projects on git platforms (such as [GitHub](https://github.com/)) to win their event t-shirts. That's right, there are actually rewards to those who contribute! [Check the terms and conditions](https://hacktoberfest.digitalocean.com/).
 
 If, like me, a noob programmer, you're wary of tinkering with other people's repositories, feeling like you're not adding something useful, then **Hacktoberfest** is your moment to shine. Several repositories are marked with the event's label, inviting those who pass to contribute, even if just a little bit.
 
@@ -20,6 +20,6 @@ I've been developing a game in Pygame at a slow pace ever since, and this year I
 
 Did I already say that I'm a bit of a noob in this world? So it is. I cloned the repository and started exploring it, trying to understand how the package worked. It took me a while to get it up and running and, from then on, I took a little longer hunting for something to improve, a way to contribute to the project.
 
-I added a demo of how to use the library to create a button that you can press and hold, but I still suspect that I didn't do it right, because the repository maintainer has been giving me the cold shoulder for a week...
+I added a demo of how to use the library to create a button that you can press and hold, but I still suspect that I didn't do it right, because the repository maintainer has been giving me the cold shoulder for a week... 🤷‍♂️ [You can check the PR here](https://github.com/Abdur-rahmaanJ/hooman/pull/29). Just beware, the demo can be dangerous for photosensitive people or people with epilepsy...
 
 Anyway, I learned a lot in this **Hacktoberfest**, mainly about what knowledge I still lack to contribute to certain projects, but all learning is valid. ^^
