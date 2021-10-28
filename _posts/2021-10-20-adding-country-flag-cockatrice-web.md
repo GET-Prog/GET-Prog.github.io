@@ -54,7 +54,7 @@ const Countries = {
 }
 ```
 
-Then, I went to the component where I should change it, so this already received the username:
+Then, I went to the component where I should change it, so this was already receiving the username:
 
 ```jsx
 ...
