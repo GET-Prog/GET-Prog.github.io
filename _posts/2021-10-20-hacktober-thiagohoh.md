@@ -14,13 +14,13 @@ To participate is simple, submit 4 Pull Requests to any participating GitHub or 
 🌲🌴👕
 
 
-So this year i was a **little** busy, so i decided to take it easy, and doing some research to find some cool repositorys/projects, i found the perfect one:
+So this year I was a **little** busy, so I decided to take it easy, and doing some research to find some cool repositorys/projects, I found the perfect one:
  [FunnyAlgorithms](https://github.com/ReciHub/FunnyAlgorithms), and as they say "A repository with a bunch of funny algorithms, beginners friendly". So this was a great opportunity to revisit some old code that and rewrite and share them with others.
 
 Well the hardest part was to think of a funny algotithm, that wasn't there yet...
-So i kind ~~cheated~~ used the term funny in a very loose way. I mean, isn't it funny how different a code looks when it's written to be a kernel module??? I thought so, too.
+So I kind ~~cheated~~ used the term funny in a very loose way. I mean, isn't it funny how different a code looks when it's written to be a kernel module??? I thought so, too.
 
-The code is a simple module that when loaded display all running taks on the terminal. I know, i know it's kinda simple, but in a cool way is also very beginner friendly if you are new to Linux kernel.
+The code is a simple module that when loaded display all running taks on the terminal. I know, I know it's kinda simple, but in a cool way is also very beginner friendly if you are new to Linux kernel.
 
 So let's get to the code, and how some things are a little different.
 
@@ -61,7 +61,7 @@ The first parameter tells which terminal to write to.
 The second parameter is a pointer to a string.
 The third which is the lenght of that string.
 
-Another thing to consider is the inclusion of \015\012, the way the terminal was built a simple \n would not work correctly. Becausa of this we need to have a carriage return and a line feed \015\012 in ASCII.
+Another thing to consider is the inclusion of \015\012, the way the terminal was built a simple \n would not work correctly. Because of this we need to have a carriage return and a line feed \015\012 in ASCII.
 
 The next two functions are the __init and __exit Macros
 ```C
@@ -75,8 +75,8 @@ printk(KERN_INFO "Displaying all tasks\n");// Prints this message on dmesg
 ```
 
 The __exit macro just prints a message on printk as well, and with that we conclude our linux module.
-Of course there is so much more that could be done or explained, but for our first kernel module i think it's ok.
+Of course there is so much more that could be done or explained, but for our first kernel module I think it's ok.
 
-The **PR** was successfully merged and closed and can be found [PR](https://github.com/ReciHub/FunnyAlgorithms/pull/865). I hope this help someone to learn more about how linux modules are made, and if you want to know more or go in more details i highly recommend [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/).
+The **PR** was successfully merged and closed and can be found [PR](https://github.com/ReciHub/FunnyAlgorithms/pull/865). I hope this help someone to learn more about how linux modules are made, and if you want to know more or go in more details I highly recommend [The Linux Kernel Module Programming Guide](https://sysprog21.github.io/lkmpg/).
 
 And if you want to get your hands on T-shirt consider visiting [Hacktoberfest website](https://hacktoberfest.digitalocean.com/) and participate as well.
